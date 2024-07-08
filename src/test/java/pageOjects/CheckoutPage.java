@@ -19,6 +19,9 @@ public WebDriver driver;
 	{
 		driver.findElement(cartBag).click();
 		driver.findElement(checkOutButton).click();
+		System.out.println("hello 1");
+		System.out.println("hello 2");
+		System.out.println("hello 3");
 	}
 	public boolean VerifyPromoBtn()
 	{
